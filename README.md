@@ -5,7 +5,7 @@
 "is a project to enable UEFI support for Virtual Machines" [link](https://www.linux-kvm.org/page/OVMF)
 
 OVMF is provided by tianocore and can be downloaded pre-compiled [link](https://www.kraxel.org/repos/jenkins/edk2/)
-compile it [yourself](https://github.com/tianocore/edk2) and [link](https://fabianlee.org/2018/09/12/kvm-building-the-latest-ovmf-firmware-for-virtual-machines/). You need the ovfm-x64 for a Windows 10 x64 guest setup.
+compile it using the [source](https://github.com/tianocore/edk2) or follow [link](https://fabianlee.org/2018/09/12/kvm-building-the-latest-ovmf-firmware-for-virtual-machines/). You need the ovfm-x64 for a Windows 10 x64 guest setup.
 
 To extract the files from the rpm on Debian/Ubuntu, you can use [rpm2cpio](https://askubuntu.com/questions/52230/how-do-i-extract-a-rpm-file)
 
